@@ -1,0 +1,1 @@
+block	(ip.SrcAddr == 50.0.0.2 and icmp) or (ip.DstAddr == 10.0.0.2 and udp)

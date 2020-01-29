@@ -1,0 +1,9 @@
+#Instruction
+block
+#IPs
+10.0.0.2	SrcAddr
+20.0.0.2	SrcAddr
+#Protocols
+tcp	DstPort==80
+tcp	SrcPort==80
+icmp
